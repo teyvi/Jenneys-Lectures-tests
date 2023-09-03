@@ -1,10 +1,11 @@
 #include <stdio.h>
-int main()
+int main(void)
 
 {
-int a, b, bmi;
-printf("Type your weight in kilograms %d\n" ,a);
-printf("Type your height in centimenters %d\n" ,b);
-scanf("%d %d", &a, &b);
-bmi=a/b;
+float a, b,  bmi;
+printf("Type your weight in kilograms\n");
+printf("Type your height in centimenters");
+scanf("%f %f", &a, &b);
+bmi=b/a;
+printf("Your BMI value is: %f\n", bmi);
 }
