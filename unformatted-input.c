@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main(void)
 
 {
 //declare the character variable
@@ -14,9 +14,7 @@ printf("Enter a character:");
 ch= getchar();
 
 //print character enter by user
-printf("\n Your character is %c" ch);
+printf("\n Your character is %c", ch);
 
-//hold the string
-getch();
-
+return (0);
 }
