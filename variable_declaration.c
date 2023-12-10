@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-int void main()
+int main()
 
 {
 a = 10;
 int a;
 printf("%d" ,a);
-getch();
 } 
