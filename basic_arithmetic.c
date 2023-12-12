@@ -10,7 +10,7 @@ printf("enter first whole number:\n");
 scanf("%d", &a)
 
 printf("enter second whole number:\n");
-scanf("%d"' &b);
+scanf("%d", &b);
 
 sum = a + b;
 
