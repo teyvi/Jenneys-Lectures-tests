@@ -5,11 +5,12 @@ int main()
 
 //converts temperature from celsius to fahrenheit
 
-int c, f;
+float c;
+float h;
 printf("Enter temperature in Celsius:\n");
-scanf("%d\n", &c);
+scanf("%f\n", &c);
 
-f = (c * 9/5) + 32;
-printf("It is %d\n", f);
+h = (c * 9/5) + 32;
+printf("It is %f\n", h);
 
 }
