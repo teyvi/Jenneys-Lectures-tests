@@ -1,4 +1,4 @@
-i#include <stdio.h>
+#include <stdio.h>
 
 int  main()
 
@@ -36,11 +36,13 @@ switch(operator)
 		printf("div = %d\n", div);
 	}
 	else{
-		printf("div = %d"\n, div);
+		printf("div = %d\n", div);
 		}
 	break; 
 
 	default:
-	printf("Error: Invalid Operator");
+	printf("Error: Invalid Operator\n");
 }
+
+	return 0;
 }
