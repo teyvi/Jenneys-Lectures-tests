@@ -31,7 +31,18 @@ switch(operator)
 	break;
 
 	case '/': div = a/b;
+	if (b !=0)
+	{	div = a/b;
+		printf("div = %d", div;
+	}
+	else{
+		printf("div = %d", div);
+		}
+	break; 
 	printf("div = %d", div);
 
+
+	default:
+	printf("Error: Invalid Operator");
 }
 }
