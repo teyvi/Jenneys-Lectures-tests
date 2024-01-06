@@ -9,7 +9,7 @@ while(i <3)
 while (j <=3)
 {printf("%d", j++);}
 
-printf("%d", i++);
+printf("%d\n", i++);
 
 }
 }
