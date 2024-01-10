@@ -10,7 +10,7 @@ int oddSum =0 , evenSum =0;
 printf("Enter ten numbers:");
 for(i =0; i <10; i++)
 {
-scanf("%d",&a[i]);
+scanf("%d", &a[i]);
 
 if ( a[i] % 2 == 0)
 {
@@ -26,8 +26,8 @@ else
 }
 }
 
-printf("number of even numbers are %d", even);
-printf("\nnumber of odd numbers are %d", odd);
-printf("Total odd %d", oddSum);
-printf("Total even %d", evenSum);
+printf("number of even numbers are: %d\n", even);
+printf("number of odd numbers are: %d\n", odd);
+printf("Total odd :%d\n", oddSum);
+printf("Total even :%d\n", evenSum);
 }
