@@ -9,11 +9,7 @@ int a[10];
 printf("Enter ten numbers:");
 for(i =0; i <10; i++)
 {
-scanf("%d", &a[i]);
- 
-
-for(i =0; i <10; i++)
-
+scanf("%d",&a[i]);
 
 if ( a[i] % 2 == 0)
 
@@ -26,6 +22,6 @@ else
 }
 
 printf("number of even numbers are %d", even);
-printf("\n number of odd numbers are %d", odd);
+printf("\nnumber of odd numbers are %d", odd);
 
 }
