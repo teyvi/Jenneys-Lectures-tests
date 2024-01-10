@@ -3,9 +3,9 @@ int main()
 //program to calculate the grade of five students using indexing 
 {
 
-int grade[5];
-int sum=0, i;
-float avg;
+float grade[5];
+int  i;
+float avg, sum =0;
 
 printf("Enter the grades of five students:");
 
