@@ -17,7 +17,7 @@ for(i =0; i <5; i++)
 {
 
 	sumarray[i] = a[i] + b[i];
-	printf("\n The sum of %d is %d:" ,i,sumarray[i]);
+	printf("\n The sum of %d is :%d", i,sumarray[i]);
 }
 
 }
