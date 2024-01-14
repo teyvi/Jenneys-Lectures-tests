@@ -4,7 +4,7 @@ int main()
 
 int i,j;
 int a[2][3], b[2][3], c[2][3];
-printf("\nEnter first matrix:");
+printf("Enter first matrix:\n");
 
 for(i =0; i<2; i++)
 {
@@ -14,7 +14,7 @@ for(i =0; i<2; i++)
 	}
 }
 
-printf("\nEnter the second matrix:");
+printf("Enter the second matrix:\n");
 for(i =0; i<2; i++)
 {
         for(j=0;j<3;j++)
@@ -30,6 +30,7 @@ for(i =0; i<2; i++)
         {
                 printf("%d\t",a[i][j]);
         }
+	printf("\n");
 }
 
 
@@ -40,6 +41,7 @@ for(i =0; i<2; i++)
         {
                 printf("%d\t",b[i][j]);
         }
+	printf("\n");
 }
 
 
