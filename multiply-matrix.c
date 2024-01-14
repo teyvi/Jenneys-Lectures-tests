@@ -13,20 +13,20 @@ for(i=0; i<2; i++)
 	scanf("%d\t", &a[i][j]);
 
 }
-
+printf("\nEnter the second matrix:\n");
 for(i=0; i<2; i++)
 {       
         for(j=0; j<2; j++)
         scanf("%d\t", &b[i][j]);
-
 }
+
+
 
 printf("\nThe first matrix is:\n");
 for(i=0; i<2; i++)
 {       
         for(j=0; j<2; j++)
         printf("%d\t",a[i][j]);
-
 }
 printf("\n");
 
