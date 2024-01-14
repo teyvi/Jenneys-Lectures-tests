@@ -3,23 +3,22 @@
 
 int main() {
     char name[30];
-    int count=0, i =0;
+    int count = 0, i = 0;
 
     printf("Enter your name:\n");
     fgets(name, sizeof(name), stdin);  // Read the name using fgets
 
-    // count the strings
-    while (name[i] !='\0')
-{
-	count++;
-	i++;
+    // count the words
+    while (name[i] != '\0') {
+        // Check for spaces or newline characters
+        if (name[i] == ' ' || name[i] == '\n') {
+            count++;
+        }
+        i++;
+    }
 
-
-
-}
-
-    printf("Your name is: %s\n", name);
-    printf("Length of your name is: %d\n",  count);
+    printf("Your name is: %s", name);
+    printf("Number of words in your name: %d\n", count);
 
     return 0;
 }
