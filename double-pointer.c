@@ -6,7 +6,5 @@ int a=10;
 int *p=&a;
 int **q=&p;
 
-printf("a= %d %d %d", a, *p,**q);
-
-
+printf("a=%d %d %d\n",a,*p,**q);
 }
