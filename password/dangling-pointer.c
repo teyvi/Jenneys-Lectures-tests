@@ -2,10 +2,11 @@
 #include<stdlib.h>
 int main()
 {
-int *ptr =10;
+int *ptr;
+*ptr = 10;
 
-int *ptr= (int*malloc(sizeof(int);
-
+ptr= (int *)malloc(sizeof(int));
+ 
 if (ptr == NULL)
 	{printf("Memory allocation failed\n");
 
