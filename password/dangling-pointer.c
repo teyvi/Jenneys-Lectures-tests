@@ -1,24 +1,23 @@
 #include<stdio.h>
 #include<stdlib.h>
 int main()
+
 {
 int *ptr;
-*ptr = 10;
+
 
 ptr= (int *)malloc(sizeof(int));
  
 if (ptr == NULL)
 	{printf("Memory allocation failed\n");
-
 	return 1; //return an error code
 	}
+
+*ptr = 10;
 											
-printf("%d",*ptr);
+printf("%d\n",*ptr);
 free(ptr);
 
 
 ptr= NULL;
-
-printf("%d",*ptr);
-
 }
