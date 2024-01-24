@@ -17,6 +17,6 @@ int sum = 0;
 printf("Enter two numbers:\n");
 scanf("%d %d",&a,&b);
 sum = a + b;
-printf("Sum of the numbers are %d:", sum);
+printf("Sum of the numbers are %d:\n", sum);
 
 }
