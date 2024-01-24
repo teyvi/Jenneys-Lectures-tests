@@ -8,6 +8,8 @@ int main()
 {
 sum();
 sub();
+div();
+mul();
 }
 
 void sum()
