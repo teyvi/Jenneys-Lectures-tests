@@ -12,4 +12,5 @@ void sum(float x, float y)
 {
 	float Sum= 0;
 	Sum= x + y;
+	printf("sum is %f\n",Sum);
 }
