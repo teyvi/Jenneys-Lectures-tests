@@ -25,7 +25,8 @@ void div(int a, int b)
 {
     printf("%d\n", a / b);
 }
-0
+
+
 int main()
 {
     int choice = 0, a, b;
@@ -42,7 +43,7 @@ int main()
     case 1: sub(a, b); break;
     case 2: mul(a, b); break;
     case 3: div(a, b); break;
-    default: printf("Enter a valid choice");
+    default: printf("Enter a valid choice\n");
     }
 
     return 0;

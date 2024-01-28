@@ -1,3 +1,4 @@
 # Ignore C compiler output files
 *.o
 a.out
+c-projects/tempCodeRunnerFile.c
